@@ -1,0 +1,845 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red70\green137\blue204;\red23\green24\blue24;\red140\green211\blue254;
+\red202\green202\blue202;\red109\green109\blue109;\red194\green126\blue101;\red183\green111\blue247;\red212\green212\blue212;
+\red113\green192\blue131;\red109\green115\blue120;\red54\green192\blue160;\red246\green124\blue48;\red163\green79\blue131;
+}
+{\*\expandedcolortbl;;\cssrgb\c33725\c61176\c83922;\cssrgb\c11765\c12157\c12549;\cssrgb\c61176\c86275\c99608;
+\cssrgb\c83137\c83137\c83137;\cssrgb\c50196\c50196\c50196;\cssrgb\c80784\c56863\c47059;\cssrgb\c77255\c54118\c97647;\cssrgb\c86275\c86275\c86275;
+\cssrgb\c50588\c78824\c58431;\cssrgb\c50196\c52549\c54510;\cssrgb\c23922\c78824\c69020;\cssrgb\c98039\c56471\c24314;\cssrgb\c70588\c40000\c58431;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh9000\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 html\cf5 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf7 \strokec7 "ar"\cf5 \strokec5  \cf4 \strokec4 dir\cf6 \strokec6 =\cf7 \strokec7 "rtl"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf7 \strokec7 "UTF-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf7 \strokec7 "viewport"\cf5 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf7 \strokec7 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1605 \u1585 \u1575 \u1602 \u1576  \u1575 \u1604 \u1576 \u1610 \u1574 \u1577  \u1608 \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578 \cf6 \strokec6 </\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf8 \strokec8 @import\cf5 \strokec5  \cf7 \strokec7 url\cf9 \strokec9 (\cf10 \strokec10 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 body\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-family:\cf5 \strokec5  \cf10 \strokec10 'Inter'\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 sans-serif\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  #f3f4f6\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 body\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-4 sm:p-8 flex flex-col items-center justify-center min-h-screen bg-gray-100"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full max-w-lg bg-white rounded-xl shadow-2xl p-6 sm:p-8 flex flex-col gap-6"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 h1\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl sm:text-4xl font-bold text-center text-gray-800"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1605 \u1585 \u1575 \u1602 \u1576  \u1575 \u1604 \u1576 \u1610 \u1574 \u1577  \u1608 \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578 \cf6 \strokec6 </\cf2 \strokec2 h1\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- Search Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 form\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "search-form"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col sm:flex-row gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "text"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "city-input"\cf5 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u1575 \u1583 \u1582 \u1604  \u1575 \u1587 \u1605  \u1575 \u1604 \u1605 \u1583 \u1610 \u1606 \u1577 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex-1 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "submit"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1576 \u1581 \u1579 \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 form\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "get-location-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-gray-500 text-white font-semibold rounded-lg hover:bg-gray-600 transition-all duration-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \uc0\u1580 \u1604 \u1576  \u1575 \u1604 \u1605 \u1608 \u1602 \u1593  \u1575 \u1604 \u1581 \u1575 \u1604 \u1610 \cb1 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "loading"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-gray-500 hidden"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1578 \u1581 \u1605 \u1610 \u1604 ...\cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "error-message"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-red-500 hidden"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- Weather & Air Quality Display -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "weather-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-blue-50 border-t-4 border-blue-600 rounded-xl shadow-lg p-6 flex flex-col gap-4 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl font-bold text-gray-800"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "location-name"\cf6 \strokec6 ></\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "grid grid-cols-2 sm:grid-cols-3 gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "temp-icon"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u9728 \u65039 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "temp-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1583 \u1585 \u1580 \u1577  \u1575 \u1604 \u1581 \u1585 \u1575 \u1585 \u1577 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u55357 \u56487 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "humidity-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1585 \u1591 \u1608 \u1576 \u1577 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u55357 \u56488 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "wind-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1585 \u1610 \u1575 \u1581 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "rain-icon"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u55356 \u57127 \u65039 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "rain-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1571 \u1605 \u1591 \u1575 \u1585 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u55356 \u57132 \u65039 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "air-quality-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1580 \u1608 \u1583 \u1577  \u1575 \u1604 \u1607 \u1608 \u1575 \u1569  (PM2.5)\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center p-3 bg-white rounded-lg shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u9728 \u65039 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold mt-2"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "uv-index-value"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-500 text-sm"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1605 \u1572 \u1588 \u1585  \u1575 \u1604 \u1571 \u1588 \u1593 \u1577  \u1601 \u1608 \u1602  \u1575 \u1604 \u1576 \u1606 \u1601 \u1587 \u1580 \u1610 \u1577 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf11 \strokec11 <!-- Gemini AI Button -->\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "gemini-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all duration-200 flex items-center justify-center gap-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \uc0\u1578 \u1581 \u1604 \u1610 \u1604  \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578  \u1576 \u1575 \u1604 \u1584 \u1603 \u1575 \u1569  \u1575 \u1604 \u1575 \u1589 \u1591 \u1606 \u1575 \u1593 \u1610  \u10024 \cb1 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "play-analysis-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition-all duration-200 flex items-center justify-center gap-2 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \uc0\u1578 \u1588 \u1594 \u1610 \u1604  \u1575 \u1604 \u1578 \u1581 \u1604 \u1610 \u1604  \u1575 \u1604 \u1589 \u1608 \u1578 \u1610  \u10024 \cb1 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- Plant Disease Prediction Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-prediction-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-green-50 border-t-4 border-green-600 rounded-xl shadow-lg p-6 flex flex-col gap-4 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl font-bold text-gray-800"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1578 \u1608 \u1602 \u1593 \u1575 \u1578  \u1575 \u1604 \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1610 \u1577 \cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "disease-prediction-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-700"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- Seasonal Diseases Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "seasonal-diseases-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-purple-50 border-t-4 border-purple-600 rounded-xl shadow-lg p-6 flex flex-col gap-4 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl font-bold text-gray-800"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1588 \u1575 \u1574 \u1593 \u1577  \u1581 \u1587 \u1576  \u1575 \u1604 \u1605 \u1608 \u1587 \u1605 \cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "seasonal-diseases-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-700 flex flex-col gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf11 \strokec11 <!-- Content will be generated here -->\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- New: Plant Search by Name Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-name-search-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full max-w-lg bg-white rounded-xl shadow-2xl p-6 sm:p-8 flex flex-col gap-6 mt-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl sm:text-3xl font-bold text-center text-gray-800"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1576 \u1581 \u1579  \u1593 \u1606  \u1606 \u1576 \u1575 \u1578  \u1576 \u1575 \u1604 \u1575 \u1587 \u1605 \cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "text"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-name-input"\cf5 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf7 \strokec7 "\uc0\u1575 \u1583 \u1582 \u1604  \u1575 \u1587 \u1605  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 "\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "search-plant-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all duration-200 flex items-center justify-center gap-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \uc0\u1576 \u1581 \u1579  \u1593 \u1606  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578  \u10024 \cb1 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-name-loading"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-gray-500 hidden"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1576 \u1581 \u1579 ...\cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-name-error"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-red-500 hidden"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- New: Plant Identification Section (from image) -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-id-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full max-w-lg bg-white rounded-xl shadow-2xl p-6 sm:p-8 flex flex-col gap-6 mt-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl sm:text-3xl font-bold text-center text-gray-800"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1578 \u1581 \u1583 \u1610 \u1583  \u1606 \u1608 \u1593  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578  \u1605 \u1606  \u1589 \u1608 \u1585 \u1577 \cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "file"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-image-input"\cf5 \strokec5  \cf4 \strokec4 accept\cf6 \strokec6 =\cf7 \strokec7 "image/*"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "identify-plant-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 flex items-center justify-center gap-2"\cf5 \strokec5  \cf4 \strokec4 disabled\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \uc0\u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578  \u10024 \cb1 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-id-loading"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-gray-500 hidden"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1578 \u1581 \u1604 \u1610 \u1604 ...\cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-id-error"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-red-500 hidden"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf11 \strokec11 <!-- Plant Identification Results Section -->\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-id-results-card"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-green-50 border-t-4 border-green-600 rounded-xl shadow-lg p-6 flex flex-col gap-4 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-2xl font-bold text-gray-800"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-name-heading"\cf6 \strokec6 ></\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-description-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-700"\cf6 \strokec6 ></\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-2 mt-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold text-gray-700"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1606 \u1589 \u1575 \u1574 \u1581  \u1575 \u1604 \u1585 \u1593 \u1575 \u1610 \u1577 :\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-care-list"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "list-disc pr-5 text-gray-600"\cf6 \strokec6 ></\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf11 \strokec11 <!-- New: Benefits and Edibility Section -->\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-2 mt-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold text-gray-700"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1575 \u1604 \u1601 \u1608 \u1575 \u1574 \u1583 :\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-benefits-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-600"\cf6 \strokec6 ></\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col gap-2 mt-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold text-gray-700"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u1589 \u1575 \u1604 \u1581  \u1604 \u1604 \u1571 \u1603 \u1604 :\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "plant-edibility-content"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-gray-600"\cf6 \strokec6 ></\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "play-plant-advice-button"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition-all duration-200 flex items-center justify-center gap-2 hidden"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \uc0\u1578 \u1588 \u1594 \u1610 \u1604  \u1575 \u1604 \u1606 \u1589 \u1610 \u1581 \u1577  \u1575 \u1604 \u1589 \u1608 \u1578 \u1610 \u1577  \u10024 \cb1 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         document\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'DOMContentLoaded'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  apiKey \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'c8f14ced862144178c642611251309'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  form \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'search-form'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  cityInput \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'city-input'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  getLocationButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'get-location-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  loading \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'loading'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  errorElement \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'error-message'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  weatherCard \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'weather-card'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantPredictionCard \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-prediction-card'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  seasonalDiseasesCard \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'seasonal-diseases-card'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  geminiButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'gemini-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  playAnalysisButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'play-analysis-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantImageInput \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-image-input'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  identifyPlantButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'identify-plant-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantIdLoading \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-id-loading'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantIdError \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-id-error'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantNameInput \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-name-input'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  searchPlantButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'search-plant-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantNameLoading \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-name-loading'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantNameError \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-name-error'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantIdResultsCard \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-id-results-card'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantNameHeading \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-name-heading'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantDescriptionContent \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-description-content'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantCareList \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-care-list'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  playPlantAdviceButton \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'play-plant-advice-button'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf11 \strokec11 // New elements for benefits and edibility\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantBenefitsContent \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-benefits-content'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  plantEdibilityContent \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'plant-edibility-content'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  locationName \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'location-name'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  tempValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'temp-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  tempIcon \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'temp-icon'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  humidityValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'humidity-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  windValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'wind-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  rainValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'rain-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  rainIcon \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'rain-icon'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  airQualityValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'air-quality-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  uvIndexValue \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'uv-index-value'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  diseasePredictionContent \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'disease-prediction-content'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 const\cf5 \strokec5  seasonalDiseasesContent \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'seasonal-diseases-content'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 let\cf5 \strokec5  currentWeatherData \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 null\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 let\cf5 \strokec5  currentAnalysisText \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ""\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Utility function to convert Base64 to ArrayBuffer for audio playback\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 function\cf5 \strokec5  base64ToArrayBuffer\cf9 \strokec9 (\cf5 \strokec5 base64\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  binary_string \cf9 \strokec9 =\cf5 \strokec5  window\cf9 \strokec9 .\cf5 \strokec5 atob\cf9 \strokec9 (\cf5 \strokec5 base64\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  len \cf9 \strokec9 =\cf5 \strokec5  binary_string\cf9 \strokec9 .\cf5 \strokec5 length\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  bytes \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Uint8Array\cf9 \strokec9 (\cf5 \strokec5 len\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 for\cf5 \strokec5  \cf9 \strokec9 (\cf8 \strokec8 let\cf5 \strokec5  i \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 0\cf9 \strokec9 ;\cf5 \strokec5  i \cf9 \strokec9 <\cf5 \strokec5  len\cf9 \strokec9 ;\cf5 \strokec5  i\cf9 \strokec9 ++)\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     bytes\cf9 \strokec9 [\cf5 \strokec5 i\cf9 \strokec9 ]\cf5 \strokec5  \cf9 \strokec9 =\cf5 \strokec5  binary_string\cf9 \strokec9 .\cf5 \strokec5 charCodeAt\cf9 \strokec9 (\cf5 \strokec5 i\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 return\cf5 \strokec5  bytes\cf9 \strokec9 .\cf5 \strokec5 buffer\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Utility function to convert PCM to WAV format\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 function\cf5 \strokec5  pcmToWav\cf9 \strokec9 (\cf5 \strokec5 pcmData\cf9 \strokec9 ,\cf5 \strokec5  sampleRate\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  buffer \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 ArrayBuffer\cf9 \strokec9 (\cf13 \strokec13 44\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  pcmData\cf9 \strokec9 .\cf5 \strokec5 length \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  view \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 DataView\cf9 \strokec9 (\cf5 \strokec5 buffer\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf11 \strokec11 // Write WAV header\cf5 \cb1 \strokec5 \
+\cb3                 writeString\cf9 \strokec9 (\cf5 \strokec5 view\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 0\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'RIFF'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint32\cf9 \strokec9 (\cf13 \strokec13 4\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 36\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  pcmData\cf9 \strokec9 .\cf5 \strokec5 length \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 writeString\cf9 \strokec9 (\cf5 \strokec5 view\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 8\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'WAVE'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 writeString\cf9 \strokec9 (\cf5 \strokec5 view\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 12\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'fmt '\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint32\cf9 \strokec9 (\cf13 \strokec13 16\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 16\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint16\cf9 \strokec9 (\cf13 \strokec13 20\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 1\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \strokec5  \cf11 \strokec11 // PCM format\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint16\cf9 \strokec9 (\cf13 \strokec13 22\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 1\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \strokec5  \cf11 \strokec11 // Mono\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint32\cf9 \strokec9 (\cf13 \strokec13 24\cf9 \strokec9 ,\cf5 \strokec5  sampleRate\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint32\cf9 \strokec9 (\cf13 \strokec13 28\cf9 \strokec9 ,\cf5 \strokec5  sampleRate \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \strokec5  \cf11 \strokec11 // Byte rate\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint16\cf9 \strokec9 (\cf13 \strokec13 32\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \strokec5  \cf11 \strokec11 // Block align\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint16\cf9 \strokec9 (\cf13 \strokec13 34\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 16\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \strokec5  \cf11 \strokec11 // Bits per sample\cf5 \cb1 \strokec5 \
+\cb3                 writeString\cf9 \strokec9 (\cf5 \strokec5 view\cf9 \strokec9 ,\cf5 \strokec5  \cf13 \strokec13 36\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'data'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 view\cf9 \strokec9 .\cf5 \strokec5 setUint32\cf9 \strokec9 (\cf13 \strokec13 40\cf9 \strokec9 ,\cf5 \strokec5  pcmData\cf9 \strokec9 .\cf5 \strokec5 length \cf9 \strokec9 *\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf11 \strokec11 // Write PCM data\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 let\cf5 \strokec5  offset \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 44\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 for\cf5 \strokec5  \cf9 \strokec9 (\cf8 \strokec8 let\cf5 \strokec5  i \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 0\cf9 \strokec9 ;\cf5 \strokec5  i \cf9 \strokec9 <\cf5 \strokec5  pcmData\cf9 \strokec9 .\cf5 \strokec5 length\cf9 \strokec9 ;\cf5 \strokec5  i\cf9 \strokec9 ++)\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     view\cf9 \strokec9 .\cf5 \strokec5 setInt16\cf9 \strokec9 (\cf5 \strokec5 offset\cf9 \strokec9 ,\cf5 \strokec5  pcmData\cf9 \strokec9 [\cf5 \strokec5 i\cf9 \strokec9 ],\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     offset \cf9 \strokec9 +=\cf5 \strokec5  \cf13 \strokec13 2\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf8 \strokec8 return\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Blob\cf9 \strokec9 ([\cf5 \strokec5 view\cf9 \strokec9 ],\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  type\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'audio/wav'\cf5 \strokec5  \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 function\cf5 \strokec5  writeString\cf9 \strokec9 (\cf5 \strokec5 view\cf9 \strokec9 ,\cf5 \strokec5  offset\cf9 \strokec9 ,\cf5 \strokec5  string\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 for\cf5 \strokec5  \cf9 \strokec9 (\cf8 \strokec8 let\cf5 \strokec5  i \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 0\cf9 \strokec9 ;\cf5 \strokec5  i \cf9 \strokec9 <\cf5 \strokec5  string\cf9 \strokec9 .\cf5 \strokec5 length\cf9 \strokec9 ;\cf5 \strokec5  i\cf9 \strokec9 ++)\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     view\cf9 \strokec9 .\cf5 \strokec5 setUint8\cf9 \strokec9 (\cf5 \strokec5 offset \cf9 \strokec9 +\cf5 \strokec5  i\cf9 \strokec9 ,\cf5 \strokec5  string\cf9 \strokec9 .\cf5 \strokec5 charCodeAt\cf9 \strokec9 (\cf5 \strokec5 i\cf9 \strokec9 ));\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf11 \strokec11 // Function to handle fetching data from WeatherAPI\cf5 \cb1 \strokec5 \
+\cb3             \cf8 \strokec8 async\cf5 \strokec5  \cf8 \strokec8 function\cf5 \strokec5  fetchData\cf9 \strokec9 (\cf5 \strokec5 query\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 loading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 weatherCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 plantPredictionCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 seasonalDiseasesCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 geminiButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf10 \strokec10 `https://api.weatherapi.com/v1/current.json?key=\cf9 \strokec9 $\{\cf5 \strokec5 apiKey\cf9 \strokec9 \}\cf10 \strokec10 &q=\cf9 \strokec9 $\{\cf5 \strokec5 query\cf9 \strokec9 \}\cf10 \strokec10 &aqi=yes`\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  data \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                     currentWeatherData \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     updateWeatherUI\cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     geminiButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cb1 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'Fetch error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1581 \u1583 \u1579  \u1582 \u1591 \u1571 : \cf9 \strokec9 $\{\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     loading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to handle form submission\cf5 \cb1 \strokec5 \
+\cb3             form\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'submit'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 e\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 e\cf9 \strokec9 .\cf5 \strokec5 preventDefault\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  city \cf9 \strokec9 =\cf5 \strokec5  cityInput\cf9 \strokec9 .\cf5 \strokec5 value\cf9 \strokec9 .\cf5 \strokec5 trim\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 city \cf9 \strokec9 ===\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1573 \u1583 \u1582 \u1575 \u1604  \u1575 \u1587 \u1605  \u1605 \u1583 \u1610 \u1606 \u1577 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 fetchData\cf9 \strokec9 (\cf5 \strokec5 city\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to get current location\cf5 \cb1 \strokec5 \
+\cb3             getLocationButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 navigator\cf9 \strokec9 .\cf5 \strokec5 geolocation\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     loading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     navigator\cf9 \strokec9 .\cf5 \strokec5 geolocation\cf9 \strokec9 .\cf5 \strokec5 getCurrentPosition\cf9 \strokec9 (\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 (\cf5 \strokec5 position\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             \cf8 \strokec8 const\cf5 \strokec5  lat \cf9 \strokec9 =\cf5 \strokec5  position\cf9 \strokec9 .\cf5 \strokec5 coords\cf9 \strokec9 .\cf5 \strokec5 latitude\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                             \cf8 \strokec8 const\cf5 \strokec5  lon \cf9 \strokec9 =\cf5 \strokec5  position\cf9 \strokec9 .\cf5 \strokec5 coords\cf9 \strokec9 .\cf5 \strokec5 longitude\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                             fetchData\cf9 \strokec9 (\cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 lat\cf9 \strokec9 \}\cf10 \strokec10 ,\cf9 \strokec9 $\{\cf5 \strokec5 lon\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'Geolocation error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                             loading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                             \cf8 \strokec8 switch\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 code\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 \cf8 \strokec8 case\cf5 \strokec5  error\cf9 \strokec9 .\cf12 \strokec12 PERMISSION_DENIED\cf9 \strokec9 :\cf5 \cb1 \strokec5 \
+\cb3                                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1604 \u1602 \u1583  \u1585 \u1601 \u1590 \u1578  \u1605 \u1588 \u1575 \u1585 \u1603 \u1577  \u1605 \u1608 \u1602 \u1593 \u1603 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1587 \u1605 \u1575 \u1581  \u1576 \u1575 \u1604 \u1608 \u1589 \u1608 \u1604  \u1573 \u1604 \u1609  \u1575 \u1604 \u1605 \u1608 \u1602 \u1593  \u1571 \u1608  \u1571 \u1583 \u1582 \u1604  \u1575 \u1587 \u1605  \u1575 \u1604 \u1605 \u1583 \u1610 \u1606 \u1577  \u1610 \u1583 \u1608 \u1610 \u1575 \u1611 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                     \cf8 \strokec8 break\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                 \cf8 \strokec8 case\cf5 \strokec5  error\cf9 \strokec9 .\cf12 \strokec12 POSITION_UNAVAILABLE\cf9 \strokec9 :\cf5 \cb1 \strokec5 \
+\cb3                                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1593 \u1584 \u1585  \u1578 \u1581 \u1583 \u1610 \u1583  \u1605 \u1608 \u1602 \u1593 \u1603  \u1575 \u1604 \u1581 \u1575 \u1604 \u1610 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1578 \u1581 \u1602 \u1602  \u1605 \u1606  \u1575 \u1578 \u1589 \u1575 \u1604 \u1603  \u1576 \u1575 \u1604 \u1573 \u1606 \u1578 \u1585 \u1606 \u1578  \u1608 \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1605 \u1585 \u1577  \u1571 \u1582 \u1585 \u1609 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                     \cf8 \strokec8 break\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                 \cf8 \strokec8 case\cf5 \strokec5  error\cf9 \strokec9 .\cf12 \strokec12 TIMEOUT\cf9 \strokec9 :\cf5 \cb1 \strokec5 \
+\cb3                                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1606 \u1578 \u1607 \u1578  \u1605 \u1607 \u1604 \u1577  \u1591 \u1604 \u1576  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1605 \u1608 \u1602 \u1593 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1605 \u1585 \u1577  \u1571 \u1582 \u1585 \u1609 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                     \cf8 \strokec8 break\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                 \cf8 \strokec8 default\cf9 \strokec9 :\cf5 \cb1 \strokec5 \
+\cb3                                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1581 \u1583 \u1579  \u1582 \u1591 \u1571  \u1594 \u1610 \u1585  \u1605 \u1593 \u1585 \u1608 \u1601 : \cf9 \strokec9 $\{\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message \cf9 \strokec9 ||\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1594 \u1610 \u1585  \u1605 \u1581 \u1583 \u1583 '\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                     \cf8 \strokec8 break\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1605 \u1578 \u1589 \u1601 \u1581  \u1604 \u1575  \u1610 \u1583 \u1593 \u1605  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1605 \u1608 \u1602 \u1593 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to generate plant disease advice using Gemini\cf5 \cb1 \strokec5 \
+\cb3             geminiButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 currentWeatherData\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1576 \u1581 \u1579  \u1593 \u1606  \u1605 \u1583 \u1610 \u1606 \u1577  \u1571 \u1608 \u1604 \u1575 \u1611 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     errorElement\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 geminiButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1578 \u1581 \u1604 \u1610 \u1604 ...'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 geminiButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 diseasePredictionContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 seasonalDiseasesContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 plantPredictionCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 seasonalDiseasesCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 await\cf5 \strokec5  generatePlantAdviceWithGemini\cf9 \strokec9 (\cf5 \strokec5 currentWeatherData\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'Gemini API error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     diseasePredictionContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '<span class="text-red-500">\uc0\u1581 \u1583 \u1579  \u1582 \u1591 \u1571  \u1571 \u1579 \u1606 \u1575 \u1569  \u1575 \u1604 \u1578 \u1581 \u1604 \u1610 \u1604  \u1576 \u1575 \u1604 \u1584 \u1603 \u1575 \u1569  \u1575 \u1604 \u1575 \u1589 \u1591 \u1606 \u1575 \u1593 \u1610 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1605 \u1585 \u1577  \u1571 \u1582 \u1585 \u1609 .</span>'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantPredictionCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     geminiButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1581 \u1604 \u1610 \u1604  \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578  \u1576 \u1575 \u1604 \u1584 \u1603 \u1575 \u1569  \u1575 \u1604 \u1575 \u1589 \u1591 \u1606 \u1575 \u1593 \u1610  \u10024 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     geminiButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to play the weather analysis using Gemini TTS\cf5 \cb1 \strokec5 \
+\cb3             playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 currentAnalysisText\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  audioContext \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 window\cf9 \strokec9 .\cf12 \strokec12 AudioContext\cf5 \strokec5  \cf9 \strokec9 ||\cf5 \strokec5  window\cf9 \strokec9 .\cf5 \strokec5 webkitAudioContext\cf9 \strokec9 )();\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1578 \u1588 \u1594 \u1610 \u1604 ...'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  apiUrl \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  payload \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         contents\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  currentAnalysisText \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \}],\cf5 \cb1 \strokec5 \
+\cb3                         generationConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             responseModalities\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf10 \strokec10 "AUDIO"\cf9 \strokec9 ],\cf5 \cb1 \strokec5 \
+\cb3                             speechConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 voiceConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     prebuiltVoiceConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  voiceName\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "Rasalgethi"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         model\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "gemini-2.5-flash-preview-tts"\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf5 \strokec5 apiUrl\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         method\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'POST'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         headers\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 'Content-Type'\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'application/json'\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         body\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 payload\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 response\cf9 \strokec9 .\cf5 \strokec5 ok\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  error \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  result \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  audioPart \cf9 \strokec9 =\cf5 \strokec5  result\cf9 \strokec9 ?.\cf5 \strokec5 candidates\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 content\cf9 \strokec9 ?.\cf5 \strokec5 parts\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  audioData \cf9 \strokec9 =\cf5 \strokec5  audioPart\cf9 \strokec9 ?.\cf5 \strokec5 inlineData\cf9 \strokec9 ?.\cf5 \strokec5 data\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  mimeType \cf9 \strokec9 =\cf5 \strokec5  audioPart\cf9 \strokec9 ?.\cf5 \strokec5 inlineData\cf9 \strokec9 ?.\cf5 \strokec5 mimeType\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 audioData \cf9 \strokec9 &&\cf5 \strokec5  mimeType \cf9 \strokec9 &&\cf5 \strokec5  mimeType\cf9 \strokec9 .\cf5 \strokec5 startsWith\cf9 \strokec9 (\cf10 \strokec10 "audio/"\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  sampleRate \cf9 \strokec9 =\cf5 \strokec5  parseInt\cf9 \strokec9 (\cf5 \strokec5 mimeType\cf9 \strokec9 .\cf5 \strokec5 match\cf9 \strokec9 (\cf14 \strokec14 /rate=(\\d+)/\cf9 \strokec9 )[\cf13 \strokec13 1\cf9 \strokec9 ],\cf5 \strokec5  \cf13 \strokec13 10\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  pcmData \cf9 \strokec9 =\cf5 \strokec5  base64ToArrayBuffer\cf9 \strokec9 (\cf5 \strokec5 audioData\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  pcm16 \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Int16Array\cf9 \strokec9 (\cf5 \strokec5 pcmData\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  wavBlob \cf9 \strokec9 =\cf5 \strokec5  pcmToWav\cf9 \strokec9 (\cf5 \strokec5 pcm16\cf9 \strokec9 ,\cf5 \strokec5  sampleRate\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  audioUrl \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 URL\cf9 \strokec9 .\cf5 \strokec5 createObjectURL\cf9 \strokec9 (\cf5 \strokec5 wavBlob\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cb1 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  audio \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Audio\cf9 \strokec9 (\cf5 \strokec5 audioUrl\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         audio\cf9 \strokec9 .\cf5 \strokec5 play\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\
+\cb3                         audio\cf9 \strokec9 .\cf5 \strokec5 onended \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                              playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1588 \u1594 \u1610 \u1604  \u1575 \u1604 \u1578 \u1581 \u1604 \u1610 \u1604  \u1575 \u1604 \u1589 \u1608 \u1578 \u1610  \u10024 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                              playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf10 \strokec10 'Invalid audio data received'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'TTS API Error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1582 \u1591 \u1571  \u1601 \u1610  \u1575 \u1604 \u1589 \u1608 \u1578 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Handle image input for plant identification\cf5 \cb1 \strokec5 \
+\cb3             plantImageInput\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'change'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 plantImageInput\cf9 \strokec9 .\cf5 \strokec5 files\cf9 \strokec9 .\cf5 \strokec5 length \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 0\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     identifyPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantIdError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     identifyPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to identify plant from an image using Gemini\cf5 \cb1 \strokec5 \
+\cb3             identifyPlantButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  file \cf9 \strokec9 =\cf5 \strokec5  plantImageInput\cf9 \strokec9 .\cf5 \strokec5 files\cf9 \strokec9 [\cf13 \strokec13 0\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 file\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     plantIdError\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1582 \u1578 \u1610 \u1575 \u1585  \u1589 \u1608 \u1585 \u1577  \u1606 \u1576 \u1575 \u1578 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantIdError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 plantIdLoading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 identifyPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 plantIdResultsCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 plantIdError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  reader \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 FileReader\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 reader\cf9 \strokec9 .\cf5 \strokec5 onload \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 event\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  base64Image \cf9 \strokec9 =\cf5 \strokec5  event\cf9 \strokec9 .\cf5 \strokec5 target\cf9 \strokec9 .\cf5 \strokec5 result\cf9 \strokec9 .\cf5 \strokec5 split\cf9 \strokec9 (\cf10 \strokec10 ','\cf9 \strokec9 )[\cf13 \strokec13 1\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 await\cf5 \strokec5  identifyPlantWithGemini\cf9 \strokec9 (\cf5 \strokec5 base64Image\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'Plant ID error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         plantIdError\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1581 \u1583 \u1579  \u1582 \u1591 \u1571  \u1601 \u1610  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1605 \u1585 \u1577  \u1571 \u1582 \u1585 \u1609 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         plantIdError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         plantIdResultsCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         plantIdLoading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         identifyPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\cb3                 reader\cf9 \strokec9 .\cf5 \strokec5 readAsDataURL\cf9 \strokec9 (\cf5 \strokec5 file\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf11 \strokec11 // Function to search for a plant by name using Gemini\cf5 \cb1 \strokec5 \
+\cb3             searchPlantButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  plantName \cf9 \strokec9 =\cf5 \strokec5  plantNameInput\cf9 \strokec9 .\cf5 \strokec5 value\cf9 \strokec9 .\cf5 \strokec5 trim\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 plantName\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     plantNameError\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1573 \u1583 \u1582 \u1575 \u1604  \u1575 \u1587 \u1605  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantNameError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 plantNameLoading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 searchPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 plantIdResultsCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 plantNameError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 await\cf5 \strokec5  searchPlantByNameWithGemini\cf9 \strokec9 (\cf5 \strokec5 plantName\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'Plant search error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     plantNameError\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1581 \u1583 \u1579  \u1582 \u1591 \u1571  \u1601 \u1610  \u1575 \u1604 \u1576 \u1581 \u1579  \u1593 \u1606  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1605 \u1585 \u1577  \u1571 \u1582 \u1585 \u1609 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantNameError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     plantIdResultsCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     plantNameLoading\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     searchPlantButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf11 \strokec11 // Function to play the plant advice audio using Gemini TTS\cf5 \cb1 \strokec5 \
+\cb3             playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 async\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  adviceText \cf9 \strokec9 =\cf5 \strokec5  plantDescriptionContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 +\cf5 \strokec5  \cf10 \strokec10 ' '\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  \cf12 \strokec12 Array\cf9 \strokec9 .\cf8 \strokec8 from\cf9 \strokec9 (\cf5 \strokec5 plantCareList\cf9 \strokec9 .\cf5 \strokec5 children\cf9 \strokec9 ).\cf5 \strokec5 map\cf9 \strokec9 (\cf5 \strokec5 li \cf9 \strokec9 =>\cf5 \strokec5  li\cf9 \strokec9 .\cf5 \strokec5 textContent\cf9 \strokec9 ).\cf5 \strokec5 join\cf9 \strokec9 (\cf10 \strokec10 '\uc0\u1548  '\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  \cf10 \strokec10 '. \uc0\u1575 \u1604 \u1601 \u1608 \u1575 \u1574 \u1583 : '\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  plantBenefitsContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 +\cf5 \strokec5  \cf10 \strokec10 '. \uc0\u1589 \u1575 \u1604 \u1581  \u1604 \u1604 \u1571 \u1603 \u1604 : '\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  plantEdibilityContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 +\cf5 \strokec5  \cf10 \strokec10 '.'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 adviceText\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  audioContext \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 window\cf9 \strokec9 .\cf12 \strokec12 AudioContext\cf5 \strokec5  \cf9 \strokec9 ||\cf5 \strokec5  window\cf9 \strokec9 .\cf5 \strokec5 webkitAudioContext\cf9 \strokec9 )();\cf5 \cb1 \strokec5 \
+\
+\cb3                 playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1580 \u1575 \u1585 \u1613  \u1575 \u1604 \u1578 \u1588 \u1594 \u1610 \u1604 ...'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf8 \strokec8 try\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  apiUrl \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  payload \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         contents\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  adviceText \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \}],\cf5 \cb1 \strokec5 \
+\cb3                         generationConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             responseModalities\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf10 \strokec10 "AUDIO"\cf9 \strokec9 ],\cf5 \cb1 \strokec5 \
+\cb3                             speechConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 voiceConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     prebuiltVoiceConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  voiceName\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "Rasalgethi"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         model\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "gemini-2.5-flash-preview-tts"\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf5 \strokec5 apiUrl\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         method\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'POST'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         headers\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 'Content-Type'\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'application/json'\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         body\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 payload\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 response\cf9 \strokec9 .\cf5 \strokec5 ok\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  error \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  result \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  audioPart \cf9 \strokec9 =\cf5 \strokec5  result\cf9 \strokec9 ?.\cf5 \strokec5 candidates\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 content\cf9 \strokec9 ?.\cf5 \strokec5 parts\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  audioData \cf9 \strokec9 =\cf5 \strokec5  audioPart\cf9 \strokec9 ?.\cf5 \strokec5 inlineData\cf9 \strokec9 ?.\cf5 \strokec5 data\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  mimeType \cf9 \strokec9 =\cf5 \strokec5  audioPart\cf9 \strokec9 ?.\cf5 \strokec5 inlineData\cf9 \strokec9 ?.\cf5 \strokec5 mimeType\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 audioData \cf9 \strokec9 &&\cf5 \strokec5  mimeType \cf9 \strokec9 &&\cf5 \strokec5  mimeType\cf9 \strokec9 .\cf5 \strokec5 startsWith\cf9 \strokec9 (\cf10 \strokec10 "audio/"\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  sampleRate \cf9 \strokec9 =\cf5 \strokec5  parseInt\cf9 \strokec9 (\cf5 \strokec5 mimeType\cf9 \strokec9 .\cf5 \strokec5 match\cf9 \strokec9 (\cf14 \strokec14 /rate=(\\d+)/\cf9 \strokec9 )[\cf13 \strokec13 1\cf9 \strokec9 ],\cf5 \strokec5  \cf13 \strokec13 10\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  pcmData \cf9 \strokec9 =\cf5 \strokec5  base64ToArrayBuffer\cf9 \strokec9 (\cf5 \strokec5 audioData\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  pcm16 \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Int16Array\cf9 \strokec9 (\cf5 \strokec5 pcmData\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  wavBlob \cf9 \strokec9 =\cf5 \strokec5  pcmToWav\cf9 \strokec9 (\cf5 \strokec5 pcm16\cf9 \strokec9 ,\cf5 \strokec5  sampleRate\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  audioUrl \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 URL\cf9 \strokec9 .\cf5 \strokec5 createObjectURL\cf9 \strokec9 (\cf5 \strokec5 wavBlob\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cb1 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  audio \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Audio\cf9 \strokec9 (\cf5 \strokec5 audioUrl\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         audio\cf9 \strokec9 .\cf5 \strokec5 play\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\
+\cb3                         audio\cf9 \strokec9 .\cf5 \strokec5 onended \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                              playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1588 \u1594 \u1610 \u1604  \u1575 \u1604 \u1606 \u1589 \u1610 \u1581 \u1577  \u1575 \u1604 \u1589 \u1608 \u1578 \u1610 \u1577  \u10024 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                              playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf10 \strokec10 'Invalid audio data received'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 catch\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     console\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 (\cf10 \strokec10 'TTS API Error:'\cf9 \strokec9 ,\cf5 \strokec5  error\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1582 \u1591 \u1571  \u1601 \u1610  \u1575 \u1604 \u1589 \u1608 \u1578 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 finally\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 function\cf5 \strokec5  updateWeatherUI\cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 locationName\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 location\cf9 \strokec9 .\cf5 \strokec5 name\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 tempValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf12 \strokec12 Math\cf9 \strokec9 .\cf5 \strokec5 round\cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 temp_c\cf9 \strokec9 )\}\cf10 \strokec10 \'b0C`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 humidityValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 humidity\cf9 \strokec9 \}\cf10 \strokec10 %`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 windValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 wind_kph\cf9 \strokec9 \}\cf10 \strokec10  \uc0\u1603 \u1605 /\u1587 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 temp_c \cf9 \strokec9 >\cf5 \strokec5  \cf13 \strokec13 30\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     tempIcon\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u55358 \u56693 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 temp_c \cf9 \strokec9 <\cf5 \strokec5  \cf13 \strokec13 10\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     tempIcon\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u55358 \u56694 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     tempIcon\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u9728 \u65039 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  isRaining \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 condition\cf9 \strokec9 .\cf5 \strokec5 text\cf9 \strokec9 .\cf5 \strokec5 includes\cf9 \strokec9 (\cf10 \strokec10 '\uc0\u1605 \u1591 \u1585 '\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 ||\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 condition\cf9 \strokec9 .\cf5 \strokec5 text\cf9 \strokec9 .\cf5 \strokec5 includes\cf9 \strokec9 (\cf10 \strokec10 'Rain'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 isRaining\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     rainValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1605 \u1591 \u1585 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     rainIcon\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u55356 \u57127 \u65039 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     rainValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1604 \u1575  \u1610 \u1608 \u1580 \u1583 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     rainIcon\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u9729 \u65039 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  pm25 \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 air_quality\cf9 \strokec9 .\cf5 \strokec5 pm2_5\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 airQualityValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 pm25\cf9 \strokec9 .\cf5 \strokec5 toFixed\cf9 \strokec9 (\cf13 \strokec13 2\cf9 \strokec9 )\}\cf10 \strokec10  \uc0\u1605 \u1610 \u1603 \u1585 \u1608 \u1594 \u1585 \u1575 \u1605 /\u1605 \u1578 \u1585  \u1605 \u1603 \u1593 \u1576 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 uvIndexValue\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 uv\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 weatherCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf8 \strokec8 async\cf5 \strokec5  \cf8 \strokec8 function\cf5 \strokec5  generatePlantAdviceWithGemini\cf9 \strokec9 (\cf5 \strokec5 data\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  city \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 location\cf9 \strokec9 .\cf5 \strokec5 name\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  humidity \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 humidity\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  rainStatus \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 condition\cf9 \strokec9 .\cf5 \strokec5 text\cf9 \strokec9 .\cf5 \strokec5 includes\cf9 \strokec9 (\cf10 \strokec10 '\uc0\u1605 \u1591 \u1585 '\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 ||\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 condition\cf9 \strokec9 .\cf5 \strokec5 text\cf9 \strokec9 .\cf5 \strokec5 includes\cf9 \strokec9 (\cf10 \strokec10 'Rain'\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 ?\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1610 \u1608 \u1580 \u1583  \u1571 \u1605 \u1591 \u1575 \u1585 '\cf5 \strokec5  \cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1604 \u1575  \u1610 \u1608 \u1580 \u1583  \u1571 \u1605 \u1591 \u1575 \u1585 '\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  temp \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 temp_c\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  pm25 \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 air_quality\cf9 \strokec9 .\cf5 \strokec5 pm2_5\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  uvIndex \cf9 \strokec9 =\cf5 \strokec5  data\cf9 \strokec9 .\cf5 \strokec5 current\cf9 \strokec9 .\cf5 \strokec5 uv\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  systemPrompt \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1578 \u1589 \u1585 \u1617 \u1601  \u1603 \u1582 \u1576 \u1610 \u1585  \u1593 \u1575 \u1604 \u1605 \u1610  \u1601 \u1610  \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578  \u1608 \u1605 \u1587 \u1578 \u1588 \u1575 \u1585  \u1586 \u1585 \u1575 \u1593 \u1610 . \u1576 \u1606 \u1575 \u1569 \u1611  \u1593 \u1604 \u1609  \u1575 \u1604 \u1576 \u1610 \u1575 \u1606 \u1575 \u1578  \u1575 \u1604 \u1576 \u1610 \u1574 \u1610 \u1577  \u1608 \u1575 \u1604 \u1605 \u1608 \u1602 \u1593  \u1575 \u1604 \u1584 \u1610  \u1587 \u1610 \u1578 \u1605  \u1578 \u1608 \u1601 \u1610 \u1585 \u1607 \u1605 \u1575 \u1548  \u1602 \u1583 \u1605  \u1578 \u1581 \u1604 \u1610 \u1604 \u1575 \u1611  \u1605 \u1601 \u1589 \u1604 \u1575 \u1611  \u1604 \u1604 \u1605 \u1582 \u1575 \u1591 \u1585  \u1575 \u1604 \u1605 \u1581 \u1578 \u1605 \u1604 \u1577  \u1593 \u1604 \u1609  \u1589 \u1581 \u1577  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1575 \u1578  \u1608 \u1575 \u1602 \u1578 \u1585 \u1581  \u1573 \u1580 \u1585 \u1575 \u1569 \u1575 \u1578  \u1608 \u1602 \u1575 \u1574 \u1610 \u1577  \u1605 \u1581 \u1583 \u1583 \u1577 . \u1576 \u1575 \u1604 \u1573 \u1590 \u1575 \u1601 \u1577  \u1573 \u1604 \u1609  \u1584 \u1604 \u1603 \u1548  \u1602 \u1605  \u1576 \u1573 \u1583 \u1585 \u1575 \u1580  \u1602 \u1575 \u1574 \u1605 \u1577  \u1576 \u1571 \u1603 \u1579 \u1585  \u1575 \u1604 \u1571 \u1605 \u1585 \u1575 \u1590  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1610 \u1577  \u1588 \u1610 \u1608 \u1593 \u1575 \u1611  \u1601 \u1610  \u1607 \u1584 \u1575  \u1575 \u1604 \u1605 \u1608 \u1602 \u1593 \u1548  \u1605 \u1593  \u1578 \u1589 \u1606 \u1610 \u1601 \u1607 \u1575  \u1581 \u1587 \u1576  \u1601 \u1589 \u1608 \u1604  \u1575 \u1604 \u1587 \u1606 \u1577  (\u1575 \u1604 \u1588 \u1578 \u1575 \u1569 \u1548  \u1575 \u1604 \u1585 \u1576 \u1610 \u1593 \u1548  \u1575 \u1604 \u1589 \u1610 \u1601 \u1548  \u1575 \u1604 \u1582 \u1585 \u1610 \u1601 ). \u1610 \u1580 \u1576  \u1571 \u1606  \u1578 \u1603 \u1608 \u1606  \u1575 \u1604 \u1575 \u1587 \u1578 \u1580 \u1575 \u1576 \u1577  \u1576 \u1589 \u1610 \u1594 \u1577  JSON."\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  userQuery \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1575 \u1604 \u1576 \u1610 \u1575 \u1606 \u1575 \u1578 : \u1575 \u1604 \u1605 \u1583 \u1610 \u1606 \u1577 : \cf9 \strokec9 $\{\cf5 \strokec5 city\cf9 \strokec9 \}\cf10 \strokec10 , \uc0\u1583 \u1585 \u1580 \u1577  \u1575 \u1604 \u1581 \u1585 \u1575 \u1585 \u1577 : \cf9 \strokec9 $\{\cf5 \strokec5 temp\cf9 \strokec9 \}\cf10 \strokec10 \'b0C, \uc0\u1575 \u1604 \u1585 \u1591 \u1608 \u1576 \u1577 : \cf9 \strokec9 $\{\cf5 \strokec5 humidity\cf9 \strokec9 \}\cf10 \strokec10 %, \uc0\u1581 \u1575 \u1604 \u1577  \u1575 \u1604 \u1571 \u1605 \u1591 \u1575 \u1585 : \cf9 \strokec9 $\{\cf5 \strokec5 rainStatus\cf9 \strokec9 \}\cf10 \strokec10 , \uc0\u1580 \u1608 \u1583 \u1577  \u1575 \u1604 \u1607 \u1608 \u1575 \u1569  (PM2.5): \cf9 \strokec9 $\{\cf5 \strokec5 pm25\cf9 \strokec9 .\cf5 \strokec5 toFixed\cf9 \strokec9 (\cf13 \strokec13 2\cf9 \strokec9 )\}\cf10 \strokec10  \uc0\u1605 \u1610 \u1603 \u1585 \u1608 \u1594 \u1585 \u1575 \u1605 /\u1605 \u1578 \u1585  \u1605 \u1603 \u1593 \u1576 , \u1605 \u1572 \u1588 \u1585  \u1575 \u1604 \u1571 \u1588 \u1593 \u1577  \u1601 \u1608 \u1602  \u1575 \u1604 \u1576 \u1606 \u1601 \u1587 \u1580 \u1610 \u1577 : \cf9 \strokec9 $\{\cf5 \strokec5 uvIndex\cf9 \strokec9 \}\cf10 \strokec10 . \uc0\u1610 \u1580 \u1576  \u1571 \u1606  \u1578 \u1578 \u1590 \u1605 \u1606  \u1602 \u1575 \u1574 \u1605 \u1577  \u1575 \u1604 \u1571 \u1605 \u1585 \u1575 \u1590  \u1604 \u1603 \u1604  \u1601 \u1589 \u1604  \u1601 \u1610  \u1605 \u1604 \u1601  JSON\u1548  \u1605 \u1593  \u1575 \u1604 \u1605 \u1601 \u1575 \u1578 \u1610 \u1581  'winter', 'spring', 'summer', 'autumn' \u1608 \u1602 \u1610 \u1605 \u1607 \u1575  \u1603 \u1602 \u1608 \u1575 \u1574 \u1605  \u1605 \u1606  \u1575 \u1604 \u1571 \u1605 \u1585 \u1575 \u1590 .`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  apiUrl \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  payload \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     contents\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  userQuery \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \}],\cf5 \cb1 \strokec5 \
+\cb3                     systemInstruction\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  systemPrompt \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     generationConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                       responseMimeType\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "application/json"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                       responseSchema\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                           \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                           \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                               \cf10 \strokec10 "analysis"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                               \cf10 \strokec10 "seasonalDiseases"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                   \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                   \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                       \cf10 \strokec10 "winter"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "ARRAY"\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 "items"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                       \cf10 \strokec10 "spring"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "ARRAY"\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 "items"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                       \cf10 \strokec10 "summer"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "ARRAY"\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 "items"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                       \cf10 \strokec10 "autumn"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "ARRAY"\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 "items"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                   \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                               \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                           \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                           \cf10 \strokec10 "required"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf10 \strokec10 "analysis"\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 "seasonalDiseases"\cf9 \strokec9 ]\cf5 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf5 \strokec5 apiUrl\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     method\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'POST'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     headers\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 'Content-Type'\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'application/json'\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     body\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 payload\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 response\cf9 \strokec9 .\cf5 \strokec5 ok\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  error \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  result \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  jsonText \cf9 \strokec9 =\cf5 \strokec5  result\cf9 \strokec9 ?.\cf5 \strokec5 candidates\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 content\cf9 \strokec9 ?.\cf5 \strokec5 parts\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  dataFromGemini \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 parse\cf9 \strokec9 (\cf5 \strokec5 jsonText\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 dataFromGemini\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf11 \strokec11 // Store the analysis text for TTS\cf5 \cb1 \strokec5 \
+\cb3                     currentAnalysisText \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 analysis \cf9 \strokec9 +\cf5 \strokec5  \cf10 \strokec10 ' '\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 seasonalDiseases\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cb1 \
+\cb3                     \cf11 \strokec11 // Update the prediction section\cf5 \cb1 \strokec5 \
+\cb3                     diseasePredictionContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `<h3>\uc0\u1578 \u1581 \u1604 \u1610 \u1604  \u1582 \u1576 \u1610 \u1585 :</h3><p>\cf9 \strokec9 $\{\cf5 \strokec5 dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 analysis\cf9 \strokec9 .\cf5 \strokec5 replace\cf9 \strokec9 (\cf14 \strokec14 /\\n/\cf8 \strokec8 g\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 '</p><p>'\cf9 \strokec9 )\}\cf10 \strokec10 </p>`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantPredictionCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf11 \strokec11 // Update the seasonal diseases section\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  seasonalData \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 seasonalDiseases\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 let\cf5 \strokec5  seasonalHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  seasonNames \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         winter\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1588 \u1578 \u1575 \u1569 '\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         spring\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1585 \u1576 \u1610 \u1593 '\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         summer\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1589 \u1610 \u1601 '\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         autumn\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1575 \u1604 \u1582 \u1585 \u1610 \u1601 '\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 for\cf5 \strokec5  \cf9 \strokec9 (\cf8 \strokec8 const\cf5 \strokec5  seasonKey \cf8 \strokec8 in\cf5 \strokec5  seasonalData\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 seasonalData\cf9 \strokec9 .\cf5 \strokec5 hasOwnProperty\cf9 \strokec9 (\cf5 \strokec5 seasonKey\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             \cf8 \strokec8 const\cf5 \strokec5  diseases \cf9 \strokec9 =\cf5 \strokec5  seasonalData\cf9 \strokec9 [\cf5 \strokec5 seasonKey\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                             seasonalHTML \cf9 \strokec9 +=\cf5 \strokec5  \cf10 \strokec10 `\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                     <h4 class="text-lg font-bold text-gray-700">\cf9 \strokec9 $\{\cf5 \strokec5 seasonNames\cf9 \strokec9 [\cf5 \strokec5 seasonKey\cf9 \strokec9 ]\}\cf10 \strokec10 </h4>\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                     <ul class="list-disc pr-5 mt-2 text-sm text-gray-600">\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                         \cf9 \strokec9 $\{\cf5 \strokec5 diseases\cf9 \strokec9 .\cf5 \strokec5 map\cf9 \strokec9 (\cf5 \strokec5 disease \cf9 \strokec9 =>\cf5 \strokec5  \cf10 \strokec10 `<li>\cf9 \strokec9 $\{\cf5 \strokec5 disease\cf9 \strokec9 \}\cf10 \strokec10 </li>`\cf9 \strokec9 ).\cf5 \strokec5 join\cf9 \strokec9 (\cf10 \strokec10 ''\cf9 \strokec9 )\}\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                     </ul>\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                                 </div>\cf5 \cb1 \strokec5 \
+\cf10 \cb3 \strokec10                             `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     seasonalDiseasesContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  seasonalHTML\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     seasonalDiseasesCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     playAnalysisButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     diseasePredictionContent\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1593 \u1584 \u1585  \u1575 \u1604 \u1581 \u1589 \u1608 \u1604  \u1593 \u1604 \u1609  \u1578 \u1581 \u1604 \u1610 \u1604  \u1605 \u1606  \u1575 \u1604 \u1584 \u1603 \u1575 \u1569  \u1575 \u1604 \u1575 \u1589 \u1591 \u1606 \u1575 \u1593 \u1610 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantPredictionCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf8 \strokec8 async\cf5 \strokec5  \cf8 \strokec8 function\cf5 \strokec5  searchPlantByNameWithGemini\cf9 \strokec9 (\cf5 \strokec5 plantName\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  systemPrompt \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1578 \u1589 \u1585 \u1617 \u1601  \u1603 \u1582 \u1576 \u1610 \u1585  \u1606 \u1576 \u1575 \u1578 \u1575 \u1578 . \u1576 \u1606 \u1575 \u1569 \u1611  \u1593 \u1604 \u1609  \u1575 \u1587 \u1605  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578  \u1575 \u1604 \u1584 \u1610  \u1587 \u1610 \u1578 \u1605  \u1578 \u1608 \u1601 \u1610 \u1585 \u1607 \u1548  \u1602 \u1605  \u1576 \u1578 \u1602 \u1583 \u1610 \u1605  \u1608 \u1589 \u1601  \u1605 \u1608 \u1580 \u1586  \u1604 \u1607 \u1548  \u1579 \u1605  \u1606 \u1589 \u1575 \u1574 \u1581  \u1605 \u1581 \u1583 \u1583 \u1577  \u1604 \u1585 \u1593 \u1575 \u1610 \u1578 \u1607  \u1578 \u1578 \u1590 \u1605 \u1606  \u1603 \u1605 \u1610 \u1577  \u1575 \u1604 \u1590 \u1608 \u1569 \u1548  \u1603 \u1605 \u1610 \u1577  \u1575 \u1604 \u1605 \u1575 \u1569 \u1548  \u1608 \u1583 \u1585 \u1580 \u1577  \u1575 \u1604 \u1581 \u1585 \u1575 \u1585 \u1577  \u1575 \u1604 \u1605 \u1579 \u1575 \u1604 \u1610 \u1577 . \u1576 \u1575 \u1604 \u1573 \u1590 \u1575 \u1601 \u1577  \u1573 \u1604 \u1609  \u1584 \u1604 \u1603 \u1548  \u1575 \u1584 \u1603 \u1585  \u1575 \u1604 \u1601 \u1608 \u1575 \u1574 \u1583  \u1575 \u1604 \u1593 \u1575 \u1605 \u1577  \u1604 \u1604 \u1606 \u1576 \u1575 \u1578  \u1608 \u1581 \u1583 \u1583  \u1605 \u1575  \u1573 \u1584 \u1575  \u1603 \u1575 \u1606  \u1589 \u1575 \u1604 \u1581 \u1611 \u1575  \u1604 \u1604 \u1571 \u1603 \u1604  \u1571 \u1608  \u1594 \u1610 \u1585  \u1589 \u1575 \u1604 \u1581  \u1604 \u1604 \u1571 \u1603 \u1604 . \u1610 \u1580 \u1576  \u1571 \u1606  \u1578 \u1603 \u1608 \u1606  \u1575 \u1604 \u1575 \u1587 \u1578 \u1580 \u1575 \u1576 \u1577  \u1576 \u1589 \u1610 \u1594 \u1577  JSON."\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  userQuery \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1575 \u1576 \u1581 \u1579  \u1593 \u1606  \u1605 \u1593 \u1604 \u1608 \u1605 \u1575 \u1578  \u1581 \u1608 \u1604  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578  \u1575 \u1604 \u1605 \u1587 \u1605 \u1609 : \cf9 \strokec9 $\{\cf5 \strokec5 plantName\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  apiUrl \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  payload \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     contents\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  userQuery \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \}],\cf5 \cb1 \strokec5 \
+\cb3                     systemInstruction\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  systemPrompt \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     generationConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         responseMimeType\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "application/json"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         responseSchema\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "name"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "description"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "careTips"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                     \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "light"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "water"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "temperature"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                 \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "benefits"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "isEdible"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf5 \strokec5 apiUrl\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     method\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'POST'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     headers\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 'Content-Type'\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'application/json'\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     body\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 payload\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 response\cf9 \strokec9 .\cf5 \strokec5 ok\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  error \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  result \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  jsonText \cf9 \strokec9 =\cf5 \strokec5  result\cf9 \strokec9 ?.\cf5 \strokec5 candidates\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 content\cf9 \strokec9 ?.\cf5 \strokec5 parts\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  dataFromGemini \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 parse\cf9 \strokec9 (\cf5 \strokec5 jsonText\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 updatePlantResultsUI\cf9 \strokec9 (\cf5 \strokec5 dataFromGemini\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\
+\cb3             \cf8 \strokec8 async\cf5 \strokec5  \cf8 \strokec8 function\cf5 \strokec5  identifyPlantWithGemini\cf9 \strokec9 (\cf5 \strokec5 base64Image\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  systemPrompt \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1578 \u1589 \u1585 \u1617 \u1601  \u1603 \u1582 \u1576 \u1610 \u1585  \u1606 \u1576 \u1575 \u1578 \u1575 \u1578 . \u1576 \u1606 \u1575 \u1569 \u1611  \u1593 \u1604 \u1609  \u1575 \u1604 \u1589 \u1608 \u1585 \u1577 \u1548  \u1602 \u1605  \u1576 \u1578 \u1581 \u1583 \u1610 \u1583  \u1606 \u1608 \u1593  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1548  \u1608 \u1602 \u1583 \u1605  \u1608 \u1589 \u1601 \u1575 \u1611  \u1605 \u1608 \u1580 \u1586 \u1575 \u1611  \u1604 \u1607 \u1548  \u1579 \u1605  \u1602 \u1583 \u1605  \u1606 \u1589 \u1575 \u1574 \u1581  \u1605 \u1581 \u1583 \u1583 \u1577  \u1604 \u1585 \u1593 \u1575 \u1610 \u1578 \u1607  \u1578 \u1578 \u1590 \u1605 \u1606  \u1603 \u1605 \u1610 \u1577  \u1575 \u1604 \u1590 \u1608 \u1569 \u1548  \u1603 \u1605 \u1610 \u1577  \u1575 \u1604 \u1605 \u1575 \u1569 \u1548  \u1608 \u1583 \u1585 \u1580 \u1577  \u1575 \u1604 \u1581 \u1585 \u1575 \u1585 \u1577  \u1575 \u1604 \u1605 \u1579 \u1575 \u1604 \u1610 \u1577 . \u1576 \u1575 \u1604 \u1573 \u1590 \u1575 \u1601 \u1577  \u1573 \u1604 \u1609  \u1584 \u1604 \u1603 \u1548  \u1575 \u1584 \u1603 \u1585  \u1575 \u1604 \u1601 \u1608 \u1575 \u1574 \u1583  \u1575 \u1604 \u1593 \u1575 \u1605 \u1577  \u1604 \u1604 \u1606 \u1576 \u1575 \u1578  \u1608 \u1581 \u1583 \u1583  \u1605 \u1575  \u1573 \u1584 \u1575  \u1603 \u1575 \u1606  \u1589 \u1575 \u1604 \u1581 \u1611 \u1575  \u1604 \u1604 \u1571 \u1603 \u1604  \u1571 \u1608  \u1594 \u1610 \u1585  \u1589 \u1575 \u1604 \u1581  \u1604 \u1604 \u1571 \u1603 \u1604 . \u1610 \u1580 \u1576  \u1571 \u1606  \u1578 \u1603 \u1608 \u1606  \u1575 \u1604 \u1575 \u1587 \u1578 \u1580 \u1575 \u1576 \u1577  \u1576 \u1589 \u1610 \u1594 \u1577  JSON."\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  userQuery \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1605 \u1575  \u1607 \u1608  \u1607 \u1584 \u1575  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 \u1567 "\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  apiUrl \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  payload \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     contents\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \cb1 \strokec5 \
+\cb3                         parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  userQuery \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 inlineData\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     mimeType\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "image/png"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                     data\cf9 \strokec9 :\cf5 \strokec5  base64Image\cb1 \
+\cb3                                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 ]\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}],\cf5 \cb1 \strokec5 \
+\cb3                     systemInstruction\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  parts\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \strokec5  text\cf9 \strokec9 :\cf5 \strokec5  systemPrompt \cf9 \strokec9 \}]\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     generationConfig\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         responseMimeType\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "application/json"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         responseSchema\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "name"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "description"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "careTips"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "OBJECT"\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                     \cf10 \strokec10 "properties"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "light"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "water"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                         \cf10 \strokec10 "temperature"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                 \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "benefits"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                                 \cf10 \strokec10 "isEdible"\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 "type"\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 "STRING"\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  response \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  fetch\cf9 \strokec9 (\cf5 \strokec5 apiUrl\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     method\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'POST'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     headers\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  \cf10 \strokec10 'Content-Type'\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'application/json'\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     body\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 payload\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (!\cf5 \strokec5 response\cf9 \strokec9 .\cf5 \strokec5 ok\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  error \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 throw\cf5 \strokec5  \cf8 \strokec8 new\cf5 \strokec5  \cf12 \strokec12 Error\cf9 \strokec9 (\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 error\cf9 \strokec9 .\cf5 \strokec5 message\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  result \cf9 \strokec9 =\cf5 \strokec5  \cf8 \strokec8 await\cf5 \strokec5  response\cf9 \strokec9 .\cf5 \strokec5 json\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  jsonText \cf9 \strokec9 =\cf5 \strokec5  result\cf9 \strokec9 ?.\cf5 \strokec5 candidates\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 content\cf9 \strokec9 ?.\cf5 \strokec5 parts\cf9 \strokec9 ?.[\cf13 \strokec13 0\cf9 \strokec9 ]?.\cf5 \strokec5 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 const\cf5 \strokec5  dataFromGemini \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 JSON\cf9 \strokec9 .\cf5 \strokec5 parse\cf9 \strokec9 (\cf5 \strokec5 jsonText\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cb1 \
+\cb3                 updatePlantResultsUI\cf9 \strokec9 (\cf5 \strokec5 dataFromGemini\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf8 \strokec8 function\cf5 \strokec5  updatePlantResultsUI\cf9 \strokec9 (\cf5 \strokec5 dataFromGemini\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 dataFromGemini \cf9 \strokec9 &&\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 name\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     plantNameHeading\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 name\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantDescriptionContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 description\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                     \cf8 \strokec8 const\cf5 \strokec5  careTips \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 careTips\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantCareList\cf9 \strokec9 .\cf5 \strokec5 innerHTML \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 light\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  li \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 createElement\cf9 \strokec9 (\cf10 \strokec10 'li'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         li\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1575 \u1604 \u1590 \u1608 \u1569 : \cf9 \strokec9 $\{\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 light\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         plantCareList\cf9 \strokec9 .\cf5 \strokec5 appendChild\cf9 \strokec9 (\cf5 \strokec5 li\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 water\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  li \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 createElement\cf9 \strokec9 (\cf10 \strokec10 'li'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         li\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1575 \u1604 \u1605 \u1575 \u1569 : \cf9 \strokec9 $\{\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 water\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         plantCareList\cf9 \strokec9 .\cf5 \strokec5 appendChild\cf9 \strokec9 (\cf5 \strokec5 li\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf8 \strokec8 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 temperature\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         \cf8 \strokec8 const\cf5 \strokec5  li \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 createElement\cf9 \strokec9 (\cf10 \strokec10 'li'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         li\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\uc0\u1583 \u1585 \u1580 \u1577  \u1575 \u1604 \u1581 \u1585 \u1575 \u1585 \u1577 : \cf9 \strokec9 $\{\cf5 \strokec5 careTips\cf9 \strokec9 .\cf5 \strokec5 temperature\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                         plantCareList\cf9 \strokec9 .\cf5 \strokec5 appendChild\cf9 \strokec9 (\cf5 \strokec5 li\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cb1 \
+\cb3                     \cf11 \strokec11 // Update new benefits and edibility sections\cf5 \cb1 \strokec5 \
+\cb3                     plantBenefitsContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 benefits \cf9 \strokec9 ||\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1604 \u1575  \u1578 \u1608 \u1580 \u1583  \u1605 \u1593 \u1604 \u1608 \u1605 \u1575 \u1578  \u1605 \u1578 \u1608 \u1601 \u1585 \u1577 ."\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantEdibilityContent\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  dataFromGemini\cf9 \strokec9 .\cf5 \strokec5 isEdible \cf9 \strokec9 ||\cf5 \strokec5  \cf10 \strokec10 "\uc0\u1604 \u1575  \u1578 \u1608 \u1580 \u1583  \u1605 \u1593 \u1604 \u1608 \u1605 \u1575 \u1578  \u1605 \u1578 \u1608 \u1601 \u1585 \u1577 ."\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3                     plantIdResultsCard\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     playPlantAdviceButton\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \strokec5  \cf8 \strokec8 else\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     plantIdError\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 '\uc0\u1578 \u1593 \u1584 \u1585  \u1578 \u1581 \u1583 \u1610 \u1583  \u1575 \u1604 \u1606 \u1576 \u1575 \u1578 . \u1575 \u1604 \u1585 \u1580 \u1575 \u1569  \u1575 \u1604 \u1605 \u1581 \u1575 \u1608 \u1604 \u1577  \u1576 \u1589 \u1608 \u1585 \u1577  \u1571 \u1608 \u1590 \u1581 .'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     plantIdError\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 body\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 html\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+}
